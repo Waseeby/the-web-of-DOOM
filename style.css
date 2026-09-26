@@ -1,4 +1,12 @@
-body{
-    background-color: rgb(244, 241, 242);
+@font-face{
+    font-family:"Minecraftia";
+    src: url("./Minecraftia-Regular.ttf") format("truetype");
 }
 
+body{
+    font-family: "Minecraftia", sans-serif;
+    background-color: rgb(244, 241, 242);
+}
+img{
+    width: 150px;
+}
